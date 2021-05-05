@@ -1,0 +1,35 @@
+
+.navbar{
+    background-color: #3a3537;
+    
+}
+
+.container{
+    flex: 1 1 auto;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 100%;
+    position: relative;
+    justify-content: space-between;
+    padding: 0%;
+}
+
+.navbar{
+    background-color: #3a3537;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:grey;
+}
+.nav-link:hover{
+    color:white;
+}
+.nav-item.text-white{
+    padding: 8px;
+}
+.nav-item.text-white:hover{
+background-color: #ea1b3c;
+}
