@@ -33,3 +33,33 @@
 .nav-item.text-white:hover{
 background-color: #ea1b3c;
 }
+
+
+.user-icon.size-128 {
+    width: 128px;
+    height: 128px;
+    font-size: 48px;
+}
+
+.user-icon {
+    display: inline-flex;
+    vertical-align: bottom;
+    width: 96px;
+    height: 96px;
+    position: relative;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.owl-carousel{
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+}
+
+.item{
+    height: 200px;
+    width: 200px;
+    background-color: #ea1b3c;
+    margin: 10px;
+}
