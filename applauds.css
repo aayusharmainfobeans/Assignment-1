@@ -49,19 +49,26 @@
 .owl-prev,
 .owl-next {
     position: absolute;
-    top: 90px;
+    top: 180px;
 }
 
 .owl-prev span,
 .owl-next span {
-    font-size: 50px;
+    font-size: 30px;
+    padding: 10px;
     font-weight:normal;
     width: 30%;
-    color: silver;
-    background-color:red;
+    color: #ea1b3c;
+    background-color:silver;
     outline: none;
 }
 
-.owl-prev span:hover{
-    transition: none;
+.owl-next span:hover, .owl-prev span:hover{
+   color: white;
+   background-color: red;
+}
+
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #ea1b3c !important; 
 }
